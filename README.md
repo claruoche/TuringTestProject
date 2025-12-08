@@ -4,7 +4,7 @@ CS4100 Project
 Christian Larouche, Shourya Ravula
 
 # absract
-The project challenges whether modern ML systems can effectively determine the difference between human and AI generated text. In our 2 part pipeline, we combined a TF-IDF cosine similarity search engine with a fine-tuned transformer classifier. Our TF-IDF part finds the most similar texts in its dataset to the entered text, effectively identifying style and alphabetic patterns between the two. Our transformer part uses supervised classification through context embeddings to find similar patterns. Results from this show that our transformer model has good accuracy on the evaluation set, and despite issues with overfitting, this suggests that linguistic changes between man and machine are apparent and detectable.
+The project challenges whether modern ML systems can effectively determine the difference between human and AI generated text. In our 2 part pipeline, we combined a TF-IDF cosine similarity search engine with a fine-tuned transformer classifier. Our TF-IDF part finds the most similar texts in its dataset to the entered text, effectively identifying style and alphabetic patterns between the two. Our transformer part uses supervised classification through context embeddings to find similar patterns. Results show our transformer model has great accuracy on the evaluation set, (with issues with overfitting), overall this suggests that linguistic changes between man and machine are detectable.
 
 # Overview
 ## what is the problem?
@@ -54,6 +54,29 @@ Compared to other detectors like GPTZero, originality.ai, or zero GPT, our model
 
 # conclusion 
 We made a viable alternative to current AI detectors and threw our hats in the ring for the Turing Test. We integrated information retriveal with modern transformer modelling, allowing for the interpreyable retrieval system to combine with modern classification that achieves great accuracy. Limitation relent, especially given the use of parapgrasing AI text to provide life like text. However, we have overall showed that ML can distinguisg human writing from AI generations in specific conditions. Hopefully this adherence to academic integrity and authenticity continues in the future, as ai becomes more advanced and people are greater incentivized to take the easy way.
+
+
+# references
+Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense — Krishna et al. (2023) 
+arXiv
+
+Distinguishing AI-Generated and Human-Written Text Through Psycholinguistic Analysis — Opara et al. (2025) 
+Emergent Mind
+
+A Lightweight Approach to Detection of AI-Generated Texts Using Stylometric Features — Aityan et al. (2025) 
+arXiv
+
+Testing of detection tools for AI-generated text — Weber-Wulf et al. (2023) 
+
+
+
+
+
+
+
+
+
+
 
 
 
