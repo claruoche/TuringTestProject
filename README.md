@@ -66,7 +66,7 @@ Emergent Mind
 A Lightweight Approach to Detection of AI-Generated Texts Using Stylometric Features — Aityan et al. (2025) 
 arXiv
 
-Testing of detection tools for AI-generated text — Weber-Wulf et al. (2023) 
+Testing of detection tools for AI-generated text — Weber-Wulf et al. (2023) SpringerLink
 
 
 
