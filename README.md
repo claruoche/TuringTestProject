@@ -3,7 +3,7 @@ CS4100 Project
 
 Christian Larouche, Shourya Ravula
 
-# absract
+# abstract
 The project challenges whether modern ML systems can effectively determine the difference between human and AI generated text. In our 2 part pipeline, we combined a TF-IDF cosine similarity search engine with a fine-tuned transformer classifier. Our TF-IDF part finds the most similar texts in its dataset to the entered text, effectively identifying style and alphabetic patterns between the two. Our transformer part uses supervised classification through context embeddings to find similar patterns. Results show our transformer model has great accuracy on the evaluation set, (with issues with overfitting), overall this suggests that linguistic changes between man and machine are detectable.
 
 # Overview
